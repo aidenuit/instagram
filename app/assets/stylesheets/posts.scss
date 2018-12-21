@@ -102,3 +102,19 @@
     padding: 15px 0;
   }
 }
+
+.delete{
+  padding-top: 20px;
+  a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #fe1b6c;
+    padding: 5px 10px;
+    border-radius: 10px;
+    &:hover {
+      color: #fe1b6c;
+      background-color: transparent;
+    }
+  }
+}
