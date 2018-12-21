@@ -4,8 +4,11 @@
 /* Import Font-awesome */
 @import "font-awesome";
 
-/* Import user.scc file */
-@import "user";
+/* Import users.scc file */
+@import "users";
+
+/* Import posts.scss */
+@import "posts";
 
 /* Style for app */
 .container {
