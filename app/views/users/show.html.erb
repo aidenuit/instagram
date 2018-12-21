@@ -2,7 +2,9 @@
 <!-- COLUMN LEFT -->
   <div class="col-md-4 avatar">
     <div class="wrapper">
-      <img src="https://scontent.fsgn2-1.fna.fbcdn.net/v/t1.0-9/30709686_975554745941884_7701712407176937472_o.jpg?_nc_cat=111&_nc_ht=scontent.fsgn2-1.fna&oh=1ad595dbd75c1973f8e4b4f921247194&oe=5CAAEC7E">
+      <% if current_user.avatar.attached? %>
+        <%= image_tag current_user.avatar %>
+      <% end %>
     </div>
   </div>
 <!-- COLUMN RIGHT -->
